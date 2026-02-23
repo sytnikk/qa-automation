@@ -1,0 +1,2 @@
+Hello, QA Automation!
+/Users/oleksandrsytnik/RnD/Projects/qa-automation/1/homework

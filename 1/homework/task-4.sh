@@ -10,13 +10,14 @@
 # ===================================================
 
 # 1. Print the values of $HOME, $USER, $SHELL, and $PATH
-
+env | grep -E 'HOME|USER|SHELL|PATH'
 
 # 2. Create a custom environment variable QA_ENV=staging and print it
-
+export QA_ENV=staging
+echo $QA_ENV
 
 # 3. List all running processes and filter for any "node" processes
-
+ps aux | grep node
 
 # 4. Explain what Ctrl+C, Ctrl+Z, and Ctrl+D do
 #    (write your answers as comments below)
